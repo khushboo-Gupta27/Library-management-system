@@ -8,7 +8,7 @@ from ViewBooks import *
 from issueBook import *
 from ReturnBook import *
 # Add your own database name and password here to reflect in the code
-mypass = "abcd1234@K"
+mypass = "password"   #here write your own database password
 mydatabase="db"
 
 con = pymysql.connect(host="localhost",user="root",password=mypass,database=mydatabase)
